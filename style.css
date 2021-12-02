@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 50px;
+    background-color: rgb(183, 183, 236);
+}
+header h1{
+    text-align: center;
+
+}
+.cuadro0{
+    height: 80px;
+    background-color: rgb(97, 100, 131);
+    text-align: center;
+}
+.cuadro0 p{
+    color: white;
+}
+.header2{
+    height: 80px;
+    background-color: rgb(167, 167, 167);
+    text-align: center;
+}
+.header2 p{
+    color: white;
+}
+.cuadro1{
+    height: 100px;
+    background-color: rgb(97, 119, 143);
+    text-align: center;
+}
+.cuadro2{
+    height: 100px;
+    background-color:  rgb(97, 119, 143);
+    text-align: center;
+}
+.cuadro3{
+    height: 100px;
+    background-color:  rgb(97, 119, 143);
+    text-align: center;
+}
+.buttonDelete{
+   display: flex;
+   justify-content: center;
+}
+footer{
+    height: 80px;
+    background-color: rgb(97, 100, 131);
+    text-align: center;
+}
+footer p{
+    color: white;
+}
+#espacioSaludo{
+    height: 20px;
+    background-color:rgb(47, 51, 46);
+    color: white;
+}
+#espacioEdad{
+    height: 20px;
+    background-color:rgb(47, 51, 46);
+    color: white;
+}
+.botonDeGuardado{
+    display: flex;
+    justify-content: center;
+    background-color: green
+}
+#botonGuardadoEspacio{
+    height: 20px;
+    background-color:rgb(47, 51, 46);
+    color: white;
+}
