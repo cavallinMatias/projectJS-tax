@@ -4,15 +4,16 @@
 }
 header {
     height: 50px;
-    background-color: rgb(183, 183, 236);
+    background-color: #000000;
 }
 header h1{
     text-align: center;
+    color: white;
 
 }
 .cuadro0{
     height: 80px;
-    background-color: rgb(97, 100, 131);
+    background-color: #000000;
     text-align: center;
 }
 .cuadro0 p{
@@ -20,7 +21,7 @@ header h1{
 }
 .header2{
     height: 80px;
-    background-color: rgb(167, 167, 167);
+    background-color: #0d2346;
     text-align: center;
 }
 .header2 p{
@@ -28,18 +29,27 @@ header h1{
 }
 .cuadro1{
     height: 100px;
-    background-color: rgb(97, 119, 143);
+    background-color: #32579d;
     text-align: center;
+}
+.cuadro1 p{
+    color: white;
 }
 .cuadro2{
     height: 100px;
-    background-color:  rgb(97, 119, 143);
+    background-color:  #32579d;
     text-align: center;
+}
+.cuadro2 p{
+    color: white;
 }
 .cuadro3{
     height: 100px;
-    background-color:  rgb(97, 119, 143);
+    background-color:  #32579d;
     text-align: center;
+}
+.cuadro3 p{
+    color: white;
 }
 .buttonDelete{
    display: flex;
@@ -47,7 +57,7 @@ header h1{
 }
 footer{
     height: 80px;
-    background-color: rgb(97, 100, 131);
+    background-color: #6091ff;
     text-align: center;
 }
 footer p{
@@ -66,10 +76,21 @@ footer p{
 .botonDeGuardado{
     display: flex;
     justify-content: center;
-    background-color: green
+    background-color: #000000
 }
 #botonGuardadoEspacio{
     height: 20px;
     background-color:rgb(47, 51, 46);
+    color: white;
+}
+.cuadro00{
+    height: 100px;
+    background-color:  #000000;
+    text-align: center;
+}
+.cuadro00 h3{
+    color: white;
+}
+.cuadro00 div{
     color: white;
 }

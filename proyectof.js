@@ -56,3 +56,12 @@ function aplicar(){
    document.getElementById("totalPIVA").value = valorTotal;
    
 }
+
+$("#btnInfoEsconder").click(function(){
+    $("#cajaInfo").fadeOut();
+})
+$("#btnInfoVer").click(function(){
+    $("#cajaInfo").fadeIn();
+})
+
+
