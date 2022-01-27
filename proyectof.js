@@ -64,4 +64,12 @@ $("#btnInfoVer").click(function(){
     $("#cajaInfo").fadeIn();
 })
 
+let btnClear = document.getElementById("btnDel")
+let inputs = document.querySelectorAll('input');
+btnClear.addEventListener('click', () => {
+    inputs.forEach(input =>  input.value = '');
+});
+
+
+
 
